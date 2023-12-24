@@ -19,7 +19,7 @@ namespace Project.V6
 
         private void ToolStripMenuItemAbout_MUA_Click(object sender, EventArgs e)
         {
-            FormAbout formAbout = new FormAbout();
+            FormAbout_MUA formAbout = new FormAbout_MUA();
             formAbout.Show();
         }
     }

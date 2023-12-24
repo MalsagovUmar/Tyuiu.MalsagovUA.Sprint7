@@ -48,6 +48,7 @@ namespace Project.V6
             this.buttonClientFormMain_MUA.TabIndex = 0;
             this.buttonClientFormMain_MUA.Text = "Клиент";
             this.buttonClientFormMain_MUA.UseVisualStyleBackColor = true;
+            this.buttonClientFormMain_MUA.Click += new System.EventHandler(this.buttonClientFormMain_MUA_Click);
             // 
             // buttonWorkerFormMain_MUA
             // 
@@ -80,7 +81,7 @@ namespace Project.V6
             this.ToolStripMenuItemProgram_MUA});
             this.menuStripMain_MUA.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain_MUA.Name = "menuStripMain_MUA";
-            this.menuStripMain_MUA.Size = new System.Drawing.Size(978, 36);
+            this.menuStripMain_MUA.Size = new System.Drawing.Size(978, 32);
             this.menuStripMain_MUA.TabIndex = 2;
             this.menuStripMain_MUA.Text = "menuStrip1";
             // 
@@ -88,7 +89,7 @@ namespace Project.V6
             // 
             this.ToolStripMenuItemAbout_MUA.Font = new System.Drawing.Font("Segoe UI Variable Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ToolStripMenuItemAbout_MUA.Name = "ToolStripMenuItemAbout_MUA";
-            this.ToolStripMenuItemAbout_MUA.Size = new System.Drawing.Size(157, 30);
+            this.ToolStripMenuItemAbout_MUA.Size = new System.Drawing.Size(157, 28);
             this.ToolStripMenuItemAbout_MUA.Text = "О разработчике";
             this.ToolStripMenuItemAbout_MUA.Click += new System.EventHandler(this.ToolStripMenuItemAbout_MUA_Click);
             // 
@@ -96,7 +97,7 @@ namespace Project.V6
             // 
             this.ToolStripMenuItemProgram_MUA.Font = new System.Drawing.Font("Segoe UI Variable Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ToolStripMenuItemProgram_MUA.Name = "ToolStripMenuItemProgram_MUA";
-            this.ToolStripMenuItemProgram_MUA.Size = new System.Drawing.Size(137, 30);
+            this.ToolStripMenuItemProgram_MUA.Size = new System.Drawing.Size(137, 28);
             this.ToolStripMenuItemProgram_MUA.Text = "О программе";
             // 
             // FormMain

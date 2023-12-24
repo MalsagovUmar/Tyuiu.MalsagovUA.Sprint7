@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Project.V6
 {
-    public partial class FormAbout : Form
+    public partial class FormAbout_MUA : Form
     {
-        public FormAbout()
+        public FormAbout_MUA()
         {
             InitializeComponent();
         }

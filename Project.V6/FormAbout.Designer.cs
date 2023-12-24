@@ -1,7 +1,7 @@
 ﻿
 namespace Project.V6
 {
-    partial class FormAbout
+    partial class FormAbout_MUA
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Project.V6
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout_MUA));
             this.pictureBoxAvatarAbout_MUA = new System.Windows.Forms.PictureBox();
             this.labelAbout_MUA = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatarAbout_MUA)).BeginInit();
@@ -48,27 +48,28 @@ namespace Project.V6
             // labelAbout_MUA
             // 
             this.labelAbout_MUA.AutoSize = true;
+            this.labelAbout_MUA.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAbout_MUA.Location = new System.Drawing.Point(192, 13);
             this.labelAbout_MUA.Name = "labelAbout_MUA";
-            this.labelAbout_MUA.Size = new System.Drawing.Size(364, 80);
+            this.labelAbout_MUA.Size = new System.Drawing.Size(441, 108);
             this.labelAbout_MUA.TabIndex = 1;
             this.labelAbout_MUA.Text = "Разработчик: Мальсагов Умар Асланович\r\nГруппа: АСОиУб-23-2\r\nТИУ, ВШЦТ (с) 2023\r\nП" +
     "рограмма разработана в рамках изучения C#";
             // 
-            // FormAbout
+            // FormAbout_MUA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(724, 363);
+            this.ClientSize = new System.Drawing.Size(724, 253);
             this.Controls.Add(this.labelAbout_MUA);
             this.Controls.Add(this.pictureBoxAvatarAbout_MUA);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(746, 419);
-            this.Name = "FormAbout";
+            this.MinimumSize = new System.Drawing.Size(746, 309);
+            this.Name = "FormAbout_MUA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormAbout";
+            this.Text = "О разработчике";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatarAbout_MUA)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

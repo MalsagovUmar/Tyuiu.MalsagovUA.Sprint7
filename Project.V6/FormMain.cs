@@ -26,8 +26,15 @@ namespace Project.V6
 
         private void ToolStripMenuItemAbout_MUA_Click(object sender, EventArgs e)
         {
-            FormAbout formAbout = new FormAbout();
+            FormAbout_MUA formAbout = new FormAbout_MUA();
             formAbout.Show();
+        }
+
+        private void buttonClientFormMain_MUA_Click(object sender, EventArgs e)
+        {
+            FormClients_MUA formClients = new FormClients_MUA();
+            this.Hide();
+            formClients.Show();
         }
     }
 }
